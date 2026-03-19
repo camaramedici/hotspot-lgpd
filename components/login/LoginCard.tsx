@@ -29,7 +29,7 @@ export default function LoginCard() {
         <div className="mb-6">
           <div className="flex items-center justify-center gap-2 mt-2">
             <div className="h-px w-12 bg-yellow-400/40" />
-            <span className="text-white/50 text-xs">Portal WiFi Público</span>
+            <span className="text-white/50 text-xs">Rede WiFi Camara Municipal</span>
             <div className="h-px w-12 bg-yellow-400/40" />
           </div>
         </div>
