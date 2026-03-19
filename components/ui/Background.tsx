@@ -5,13 +5,13 @@ export default function Background({ children }: { children: React.ReactNode }) 
 
       {/* Imagem de fundo — Desktop */}
       <div
-        className="absolute inset-0 hidden md:block bg-cover bg-center opacity-10"
+        className="absolute inset-0 hidden md:block bg-cover bg-center opacity-90"
         style={{ backgroundImage: "url('/images/bg_desktop.png')" }}
       />
 
       {/* Imagem de fundo — Mobile */}
       <div
-        className="absolute inset-0 block md:hidden bg-cover bg-center opacity-10"
+        className="absolute inset-0 block md:hidden bg-cover bg-center opacity-90"
         style={{ backgroundImage: "url('/images/bg_mobile.png')" }}
       />
 
