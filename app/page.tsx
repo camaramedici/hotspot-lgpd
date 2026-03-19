@@ -117,7 +117,7 @@ export default function HomePage() {
           <div className="flex justify-center mb-4">
             <div className="w-24 h-24 rounded-full border-4 border-yellow-400/60 shadow-lg shadow-yellow-400/20 overflow-hidden bg-white/10 flex items-center justify-center">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Bras%C3%A3o_de_Presidente_M%C3%A9dici-RO.jpg/200px-Bras%C3%A3o_de_Presidente_M%C3%A9dici-RO.jpg"
+                src="https://pt.wikipedia.org/wiki/Ficheiro:Bras%C3%A3o_de_Presidente_M%C3%A9dici-RO.jpg"
                 alt="Brasão de Presidente Médici"
                 className="w-20 h-20 object-contain"
               />
@@ -134,7 +134,7 @@ export default function HomePage() {
             </p>
             <div className="flex items-center justify-center gap-2 mt-2">
               <div className="h-px w-12 bg-yellow-400/40" />
-              <span className="text-white/50 text-xs">Portal WiFi Público</span>
+              <span className="text-white/50 text-xs">Portal WiFi Visitante</span>
               <div className="h-px w-12 bg-yellow-400/40" />
             </div>
           </div>
@@ -209,7 +209,7 @@ export default function HomePage() {
 
           {/* Rodapé do card */}
           <p className="mt-6 text-xs text-white/30">
-            📶 Rede WiFi pública — uso responsável
+            📶 Rede WiFi Visitante — uso responsável
           </p>
         </div>
       </div>
@@ -236,7 +236,7 @@ export default function HomePage() {
               <p><span className="text-yellow-400 font-semibold">Retenção:</span> 5 anos conforme legislação aplicável.</p>
               <p><span className="text-yellow-400 font-semibold">Compartilhamento:</span> Não compartilhado com terceiros, exceto por ordem judicial.</p>
               <p><span className="text-yellow-400 font-semibold">Seus direitos:</span> Acesso, correção e exclusão mediante solicitação ao setor de TI.</p>
-              <p><span className="text-yellow-400 font-semibold">Contato DPO:</span> ti@camaramedici.ro.leg.br</p>
+              <p><span className="text-yellow-400 font-semibold">Contato DPO:</span> ti@presidentemedici.ro.leg.br</p>
             </div>
             <button
               onClick={() => setShowModal(false)}
