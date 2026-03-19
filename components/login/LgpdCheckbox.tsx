@@ -9,8 +9,8 @@ export default function LgpdCheckbox({ accepted, onChange, onOpenModal }: Props)
   return (
     <>
       <div className="bg-blue-900/40 border border-blue-400/30 rounded-xl p-3 mb-5 text-left">
-        <p className="text-xs text-blue-200 font-semibold mb-1">🔒 Aviso de Privacidade — LGPD</p>
-        <p className="text-xs text-blue-300 leading-relaxed">
+        <p className="text-xs text-center text-blue-200 font-semibold mb-1">🔒 Aviso de Privacidade — LGPD</p>
+        <p className="text-xs text-justify text-blue-300 leading-relaxed">
           Ao acessar esta rede, seus dados serão registrados conforme a{" "}
           <strong className="text-white">Lei nº 13.709/2018</strong>.{" "}
           <button
