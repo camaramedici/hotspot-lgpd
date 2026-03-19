@@ -27,12 +27,6 @@ export default function LoginCard() {
 
         {/* Título */}
         <div className="mb-6">
-          <h1 className="text-2xl font-bold text-white tracking-wide">
-            Câmara Municipal
-          </h1>
-          <p className="text-yellow-400 font-semibold text-sm tracking-widest uppercase mt-1">
-            Presidente Médici — RO
-          </p>
           <div className="flex items-center justify-center gap-2 mt-2">
             <div className="h-px w-12 bg-yellow-400/40" />
             <span className="text-white/50 text-xs">Portal WiFi Público</span>
