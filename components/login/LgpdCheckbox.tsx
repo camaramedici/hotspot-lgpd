@@ -15,7 +15,7 @@ export default function LgpdCheckbox({ accepted, onChange, onOpenModal }: Props)
           <strong className="text-white">Lei nº 13.709/2018</strong>.{" "}
           <button
             onClick={onOpenModal}
-            className="text-yellow-300 underline hover:text-yellow-100 transition font-bold text-sm bg-yellow-400/10 px-1.5 py-0.5 rounded hover:bg-yellow-400/20"
+            className="text-yellow-300 underline hover:text-yellow-100 transition font-bold text-sm text-right bg-yellow-400/10 px-1.5 py-0.5 rounded hover:bg-yellow-400/20"
           >
             Saiba mais
           </button>
