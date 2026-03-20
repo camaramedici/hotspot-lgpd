@@ -34,6 +34,6 @@ export const LGPD_INFO = {
   legal: "Art. 7º, II — Lei nº 13.709/2018 (cumprimento de obrigação legal).",
   retention: "5 anos conforme legislação aplicável.",
   sharing: "Não compartilhado com terceiros, exceto por ordem judicial.",
-  rights: "Acesso, correção e exclusão mediante solicitação ao setor de TI.",
-  dpo: "ti@presidentemedici.ro.leg.br",
+  rights: "Acesso, correção e exclusão mediante solicitação ao CONTROLADOR.",
+  dpo: "camaramedici@gmail.com",
 };
