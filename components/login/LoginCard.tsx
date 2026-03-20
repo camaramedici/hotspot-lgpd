@@ -12,7 +12,7 @@ export default function LoginCard() {
 
   return (
     <>
-      <div className="bg-blue-900/20 backdrop-blur-xl border border-white/20 rounded-3xl shadow-2xl p-8 text-center">
+      <div className="bg-blue-900/50 backdrop-blur-xl border border-white/20 rounded-3xl shadow-2xl p-8 text-center">
 
         {/* Logo */}
         <div className="flex justify-center mb-4">
