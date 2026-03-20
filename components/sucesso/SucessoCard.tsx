@@ -12,7 +12,7 @@ interface Props {
 
 export default function SucessoCard({ session }: Props) {
   return (
-    <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl shadow-2xl p-8 text-center">
+    <div className="bg-blue/10 backdrop-blur-xl border border-white/20 rounded-3xl shadow-2xl p-8 text-center">
 
       {/* Ícone sucesso */}
       <div className="flex justify-center mb-4">
